@@ -1,7 +1,7 @@
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background: #000;
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --colro-accent: #ff3400;
+  --color-heading: #1b0760;
+  --colro-body: #918ca4;
 }
