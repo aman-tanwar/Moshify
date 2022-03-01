@@ -203,11 +203,19 @@ a {
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 600;
+  margin: 1rem 0;
+  outline: 0;
   padding: 2rem 3rem;
+  text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  text-align: center;
-  margin: 1rem 0;
+}
+
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
 .btn--primary {
@@ -287,7 +295,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 
 .input-group .btn {
@@ -638,13 +646,13 @@ a {
 }
 
 .nav__item {
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border-bottom: 1px solid #222;
 }
 
 .nav__item > a {
   color: #d2d0db;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .nav__item > a:hover {
@@ -652,8 +660,8 @@ a {
 }
 
 .nav__toggler {
-  opacity: .5;
-  transition: box-shadow .15s;
+  opacity: 0.5;
+  transition: box-shadow 0.15s;
   cursor: pointer;
 }
 
@@ -709,5 +717,34 @@ a {
   .hero__content {
     text-align: left;
     align-self: center;
+  }
+}
+
+/* Domain Block */
+.block--domain .input-group {
+  box-shadow: 6.9px 0px 4px -3px rgba(0, 0, 0, 0.026),
+    2px 0px 15.7px -3px rgba(0, 0, 0, 0.043),
+    1.3px 0px 37px -3px rgba(0, 0, 0, 0.054),
+    12.1px 0px 74px -3px rgba(0, 0, 0, 0.065),
+    55px 0px 165px -3px rgba(0, 0, 0, 0.12);
+  border: 0;
+  margin: 4rem auto;
+  max-width: 670px;
+}
+
+.block-domain__prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  font-size: 2rem;
+  font-weight: 600;
+  justify-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
