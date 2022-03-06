@@ -547,8 +547,10 @@ a {
 
 /* callout */
 .callout {
-  padding: 4rem;
   border-radius: 5px;
+  padding: 4rem;
+  position: relative;
+  top: 4rem;
 }
 
 .callout--primary {
