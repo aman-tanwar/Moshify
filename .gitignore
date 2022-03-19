@@ -2,9 +2,6 @@ node_modules/
 dist/
 .cache/
 .htmlnanorc.js/
-<<<<<<< HEAD
 Playground.html/
-=======
-playground.html/
 components/
->>>>>>> 41bc5e7bb9629afbd9bd5ed7652748e13784b73d
+
