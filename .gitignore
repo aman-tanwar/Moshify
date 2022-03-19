@@ -3,3 +3,4 @@ dist/
 .cache/
 .htmlnanorc.js/
 playground.html/
+components/
