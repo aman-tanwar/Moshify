@@ -4,3 +4,9 @@ collapsibles.forEach((item) =>
     this.classList.toggle("collapsible--expanded");
   })
 );
+
+window.onload = function () {
+  setTimeout(function () {
+    document.getElementById("loader").remove();
+  }, 1000);
+};
